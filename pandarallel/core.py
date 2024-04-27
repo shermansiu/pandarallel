@@ -454,8 +454,8 @@ class pandarallel:
         cls,
         shm_size_mb=None,
         nb_workers=NB_PHYSICAL_CORES,
-        progress_bar=False,
-        verbose=2,
+        progress_bar: bool = False,
+        verbose: int = 2,
         use_memory_fs: Optional[bool] = None,
     ) -> None:
         show_progress_bars = progress_bar
