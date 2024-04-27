@@ -452,7 +452,6 @@ class pandarallel:
     @classmethod
     def initialize(
         cls,
-        shm_size_mb=None,
         nb_workers=NB_PHYSICAL_CORES,
         progress_bar: bool = False,
         verbose: int = 2,
